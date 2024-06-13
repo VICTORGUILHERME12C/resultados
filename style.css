@@ -22,6 +22,7 @@ body{
     background: var(--resultado-bg);
     text-align: center;
     color: white;
+    border-radius: 0 0 3.2rem 3.2rem;
 }
 
 .resultado h1 {
@@ -50,5 +51,16 @@ line-height: 7.2rem;
 }
 
 .resultado div strong:nth-of-type(2){
+    color: lightblue;
+}
+
+.resultado h2 {
+    font-size: 2.4REM;
+    margin-bottom: 1rem;
+}
+
+.resultado p {
+    max-width: 26rem;
+    margin-inline: auto;
     color: lightblue;
 }
